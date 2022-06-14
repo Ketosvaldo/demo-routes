@@ -2,9 +2,27 @@
   text-align: center;
 }
 
+.Text{
+  color: rgb(18, 85, 94);
+  margin: 10px;
+}
+
+.App-cola{
+  flex-direction: column;
+  text-align: left;
+}
+
+.App-Routes{
+  font-size: 20px;
+  flex: 1;
+  text-align: right;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  display: inline-block;
+  vertical-align: top;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,14 +31,16 @@
   }
 }
 
+.App-title{
+  display: inline-block;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 50vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(1px + 2vmin);
   color: white;
 }
 
