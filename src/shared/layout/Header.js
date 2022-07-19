@@ -8,11 +8,11 @@ const Header = (props) => {
 
     return ( 
         <header className="App-header">
-            <a href={url} className="App-cola">
+            <a href={url} className="App-cola  ">
                 <img src={logo} className="App-logo" alt="logo"/>
                 <h1 className="App-title">{title}</h1>
                 <div className="App-Routes">
-                    <a href="./" className="Text">Home</a>
+                    <a href="/" className="Text">Home</a>
                     <a href="about" className="Text">About</a>
                     <a href="notes" className="Text">Notes</a>
                     <a href="contact" className="Text">Contact</a>
